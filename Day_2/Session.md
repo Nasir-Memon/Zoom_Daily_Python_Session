@@ -90,16 +90,3 @@ Exercise: Analyze how break controls the pattern output.
 
 
 ---
-
-7. Multiplication Table with Skipping
-
-Print a multiplication table but skip all multiples of 3 using continue.
-
-for i in range(1, 11):
-    for j in range(1, 11):
-        if (i * j) % 3 == 0:
-            continue
-        print(i * j, end='\t')
-    print()
-
-Exercise: Modify the code to skip multiples of 5.
