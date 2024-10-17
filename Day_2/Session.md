@@ -1,4 +1,4 @@
-Here are 7 exercise examples for Day 2: Nested Loops and Loop Control (break, continue):
+Here are 6 exercise examples for Day 2: Nested Loops and Loop Control (break, continue):
 
 1. Print a 5x5 Grid of Stars
 
