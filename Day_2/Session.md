@@ -1,4 +1,4 @@
-Here are 8 exercise examples for Day 2: Nested Loops and Loop Control (break, continue):
+Here are 6 exercise examples for Day 2: Nested Loops and Loop Control (break, continue):
 
 1. Print a 5x5 Grid of Stars
 
@@ -72,25 +72,10 @@ Exercise: Experiment with continue to skip j == 3 and observe the output.
 
 ---
 
-6. Find Prime Numbers
-
-Write a program to find all prime numbers between 1 and 50 using nested loops.
-
-for num in range(2, 51):
-    is_prime = True
-    for i in range(2, num):
-        if num % i == 0:
-            is_prime = False
-            break
-    if is_prime:
-        print(num)
-
-Exercise: Modify the program to find prime numbers between 1 and 100.
 
 
----
 
-7. Pattern with Break
+6. Pattern with Break
 
 Print a pattern of numbers but stop the loop early when a condition is met.
 
@@ -105,16 +90,3 @@ Exercise: Analyze how break controls the pattern output.
 
 
 ---
-
-8. Multiplication Table with Skipping
-
-Print a multiplication table but skip all multiples of 3 using continue.
-
-for i in range(1, 11):
-    for j in range(1, 11):
-        if (i * j) % 3 == 0:
-            continue
-        print(i * j, end='\t')
-    print()
-
-Exercise: Modify the code to skip multiples of 5.
