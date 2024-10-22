@@ -7,6 +7,7 @@ def factorial(n):
         return n * factorial(n - 1)
 
 
+
 #2nd Example 
 
 def countdown(n):
@@ -17,6 +18,7 @@ def countdown(n):
         countdown(n - 1)  
 countdown(5)
 
+
 #3rd Example 
 
 def sum_natural(n):
@@ -26,6 +28,7 @@ def sum_natural(n):
         return n + sum_natural(n - 1)  # Recursive call
 print(sum_natural(5))
 
+
 #4th Example 
 
 def reverse_string(s):
@@ -34,6 +37,7 @@ def reverse_string(s):
     else:
         return s[-1] + reverse_string(s[:-1])  # Recursive call
 print(reverse_string("hello"))
+
 
 #5th Example 
 
